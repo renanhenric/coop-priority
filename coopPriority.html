@@ -1,0 +1,73 @@
+<meta charset="utf-8">
+
+<table style="width:500" border="1px solid black">
+  <tr>
+    <th>Process</th>
+    <th>Burst Time</th>
+    <th>Priority</th>
+    <th>Burst Time Input</th>
+    <th>Priority Input</th>
+  </tr>
+  <tr style="text-align:center">
+    <td>Process 1</td>
+    <td id="p1BurstTime"></td>
+    <td id="p1Priority"></td>
+    <td><input type="text" id="btInputP1" style="width:30px"></td>
+    <td><input type="text" id="ptInputP1" style="width:30px"></td>
+  </tr>
+
+  <tr style="text-align:center">
+    <td>Process 2</td>
+    <td id="p2BurstTime"></td>
+    <td id="p2Priority"></td>
+    <td><input type="text" id="btInputP2" style="width:30px"></td>
+    <td><input type="text" id="ptInputP2" style="width:30px"></td>
+  </tr>
+
+  <tr style="text-align:center">
+    <td>Process 3</td>
+    <td id="p3BurstTime"></td>
+    <td id="p3Priority"></td>
+    <td><input type="text" id="btInputP3" style="width:30px"></td>
+    <td><input type="text" id="ptInputP3" style="width:30px"></td>
+  </tr>
+
+  <tr style="text-align:center">
+    <td>Process 4</td>
+    <td id="p4BurstTime"></td>
+    <td id="p4Priority"></td>
+    <td><input type="text" id="btInputP4" style="width:30px"></td>
+    <td><input type="text" id="ptInputP4" style="width:30px"></td>
+  </tr>
+
+  <tr style="text-align:center">
+    <td>Process 5</td>
+    <td id="p5BurstTime"></td>
+    <td id="p5Priority"></td>
+    <td><input type="text" id="btInputP5" style="width:30px"></td>
+    <td><input type="text" id="ptInputP5" style="width:30px"></td>
+  </tr>
+</table>
+
+<h3>Process 1</h3>
+<canvas id="p1" width = "506" height = "42" style="border:2px solid #000000;"></canvas>
+<br>
+<h3>Process 2</h3>
+<canvas id="p2" width = "506" height = "42" style="border:2px solid #000000;"></canvas>
+<br>
+<h3>Process 3</h3>
+<canvas id="p3" width = "506" height = "42" style="border:2px solid #000000;"></canvas>
+<br>
+<h3>Process 4</h3>
+<canvas id="p4" width = "506" height = "42" style="border:2px solid #000000;"></canvas>
+<br>
+<h3>Process 5</h3>
+<canvas id="p5" width = "506" height = "42" style="border:2px solid #000000;"></canvas>
+<br>
+<br>
+<br>
+<button onclick="start()">Começar execução</button>
+<!--<button onclick="randomize()">Random</button>-->
+
+
+<script type="text/javascript" src="index.js"></script>
